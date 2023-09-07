@@ -1,0 +1,206 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.image_header{
+  background-image: url(https://source.unsplash.com/user/wsanter);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      height: 15rem;
+      width:auto;
+}
+/* Header Styles */
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #f2f2f2;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: #333;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    li a:hover {
+      background-color: #ddd;
+    }
+
+    .active {
+      background-color: #ccc;
+    }
+
+/*Header login Style*/
+/* CSS styles for the login section */
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+.container_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #f2f2f2;
+  font-size: 24px;
+}
+
+.login-section {
+  position: relative;
+}
+
+.login-button {
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.login-button:hover {
+  background-color: #45a049;
+
+}
+.btnlogin{
+  text-decoration: none;
+  color: white;
+}
+
+
+/* Body Styles */
+#sustainable-living {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+/*Header image styling*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center; /* Center items vertically within the container */
+}
+
+.image {
+  flex: 0 0 50%;
+  padding-right: 20px; /* Add some space between image and content */
+}
+
+.image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.content {
+  flex: 0 0 50%; /* Adjust the width to maintain a 50/50 split */
+  padding: 0 20px;
+}
+.content p {
+  font-family: "Arial", sans-serif; /* Change to your desired font */
+  font-size: 16px; /* Adjust font size as needed */
+  line-height: 1.5; /* Adjust line height as needed */
+  color: #333; /* Change text color to your preference */
+}
+/*Close Header Image styling*/
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.feature {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.feature img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  color: #777777;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.feature-link {
+  display: inline-block;
+  background-color: #4caf50;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.feature-link:hover {
+  background-color: #45a049;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer .container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo, .img {
+  max-height: 50px;
+}
+
+.footer-links,.footer-ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.footer-links,.footer-ul,.lia {
+  margin-right: 10px;
+}
+
+.footer-links,.footer-ul,.lia,.liclass {
+  color: #fff;
+  text-decoration: none;
+}
+.lia{
+  background-color: black;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: #222;
+  padding: 10px;
+  text-align: center;
+}

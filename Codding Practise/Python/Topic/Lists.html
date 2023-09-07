@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+    <link rel="stylesheet" href="Codding Practise/Exercise{Elements}/universal.css">
+    <script src="Codding Practise/Exercise{Elements}/universal.js"></script>
+</head>
+<body>
+	<h1>Python List Quiz</h1>
+    <div class="question-container" id="question-1">
+        <div class="question-number">Question 1:</div>
+        <div class="question">What is the syntax to create an empty list in Python?</div>
+        <div class="answer-container" id="answer-1">
+            Answer: <code>[]</code>
+        </div>
+        <button class="show-answer-button" id="show-button-1" onclick="showAnswer(1)">Show Answer</button>
+        <button class="done-button" id="done-button-1" onclick="markComplete(1)">Done</button>
+        <div class="hint">Hint: It uses square brackets.</div>
+    </div>
+
+    <div class="question-container" id="question-2">
+    <div class="question-number">Question 2:</div>
+    <div class="question">How can you access the third element of a list named "my_list"?</div>
+    <div class="answer-container" id="answer-2">
+        Answer: <code>my_list[2]</code>
+    </div>
+    <button class="show-answer-button" id="show-button-2" onclick="showAnswer(2)">Show Answer</button>
+    <button class="done-button" id="done-button-2" onclick="markComplete(2)">Done</button>
+    <div class="hint">Hint: List indexing starts from 0.</div>
+</div>
+
+<div class="question-container" id="question-3">
+    <div class="question-number">Question 3:</div>
+    <div class="question">What is the purpose of the len() function when applied to a list?</div>
+    <div class="answer-container" id="answer-3">
+        Answer: <code> The len() function returns the number of elements in a list</code>
+    </div>
+    <button class="show-answer-button" id="show-button-3" onclick="showAnswer(3)">Show Answer</button>
+    <button class="done-button" id="done-button-2" onclick="markComplete(3)">Done</button>
+    <div class="hint">Hint: List indexing starts from 0.</div>
+</div>
+<div class="question-container" id="question-4">
+        <div class="question-number">Question 4:</div>
+        <div class="question">What is the index of the element 'apple' in the list ['banana', 'apple', 'orange']?</div>
+        <div class="answer-container" id="answer-4">
+            Answer: <code>The index of 'apple' in the list ['banana', 'apple', 'orange'] is 1.</code>
+        </div>
+        <button class="show-answer-button" id="show-button-4" onclick="showAnswer(4)">Show Answer</button>
+        <button class="done-button" id="done-button-4" onclick="markComplete(4)">Done</button>
+        <div class="hint">Hint:  Use the index() method.</div>
+    </div>
+    <div class="question-container" id="question-5">
+        <div class="question-number">Question 5:</div>
+        <div class="question">How do you add the element 'grape' to the end of the list ['apple', 'banana', 'orange']?</div>
+        <div class="answer-container" id="answer-5">
+            Answer: <code>You can add 'grape' to the end of the list ['apple', 'banana', 'orange'] using the append() method: <br />my_list = ['apple', 'banana', 'orange']<br />my_list.append('grape')</code>
+        </div>
+        <button class="show-answer-button" id="show-button-5" onclick="showAnswer(5)">Show Answer</button>
+        <button class="done-button" id="done-button-5" onclick="markComplete(5)">Done</button>
+        <div class="hint">Hint:  Use the append() method.</div>
+    </div>
+    <div class="question-container" id="question-6">
+        <div class="question-number">Question 6:</div>
+        <div class="question">What is the length of the list ['cat', 'dog', 'rabbit', 'hamster']?</div>
+        <div class="answer-container" id="answer-6">
+            Answer: <code>The length of the list ['cat', 'dog', 'rabbit', 'hamster'] is 4.</code>
+        </div>
+        <button class="show-answer-button" id="show-button-6" onclick="showAnswer(6)">Show Answer</button>
+        <button class="done-button" id="done-button-6" onclick="markComplete(6)">Done</button>
+        <div class="hint">Hint: Use the len() function.</div>
+    </div>
+    <div class="question-container" id="question-7">
+        <div class="question-number">Question 7:</div>
+        <div class="question">How do you remove the element 'banana' from the list ['apple', 'banana', 'orange']?</div>
+        <div class="answer-container" id="answer-7">
+            Answer: <code>You can remove 'banana' from the list ['apple', 'banana', 'orange'] using the remove() method: <br >my_list = ['apple', 'banana', 'orange'] <br />
+my_list.remove('banana')
+</code>
+        </div>
+        <button class="show-answer-button" id="show-button-7" onclick="showAnswer(7)">Show Answer</button>
+        <button class="done-button" id="done-button-7" onclick="markComplete(7)">Done</button>
+        <div class="hint">Hint: Use the remove() function.</div>
+    </div>
+    <div class="question-container" id="question-8">
+        <div class="question-number">Question 8:</div>
+        <div class="question">What are the first three elements of the list ['apple', 'banana', 'orange', 'grape', 'kiwi']?</div>
+        <div class="answer-container" id="answer-8">
+            Answer: <code>The first three elements of the list ['apple', 'banana', 'orange', 'grape', 'kiwi'] are 'apple', 'banana', and 'orange'. You can obtain them using list slicing: <br /> my_list = ['apple', 'banana', 'orange', 'grape', 'kiwi'] ,<br />
+first_three = my_list[:3]
+
+</code>
+        </div>
+        <button class="show-answer-button" id="show-button-8" onclick="showAnswer(8)">Show Answer</button>
+        <button class="done-button" id="done-button-8" onclick="markComplete(8)">Done</button>
+        <div class="hint">Hint: Use the remove() function.</div>
+    </div>
+
+    <!-- Continue adding more question-container divs for each question -->
+
+    <div class="question-container" id="question-100">
+        <div class="question-number">Question 100:</div>
+        <div class="question">How can you remove all elements from a list in Python?</div>
+        <div class="answer-container" id="answer-100">
+            Answer: <code>my_list.clear()</code>
+        </div>
+        <button class="show-answer-button" id="show-button-100" onclick="showAnswer(100)">Show Answer</button>
+        <button class="done-button" id="done-button-100" onclick="markComplete(100)">Done</button>
+        <div class="hint">Hint:  Use list slicing.</div>
+    </div>
+    
+    <div id="completed-indicator" class="completed-indicator"></div>
+    <script src="Codding Practise/Exercise{Elements}/universal{second}.js"> </script>
+</body>
+</html>
